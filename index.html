@@ -32,6 +32,7 @@
 <script src="https://www.yuktravel.com/assets/js/superslides/jquery.animate-enhanced.min.js" async></script>
 <script src="https://www.yuktravel.com/assets/js/superslides/jquery.superslides.min.js"  type="text/javascript" charset="utf-8"></script>
 <script src="https://www.yuktravel.com/assets/js/superslides/jquery.hammer.min.js" ></script>
+<script src="js/bootstrap.min.js"></script>
 
 
     
@@ -189,122 +190,37 @@ src="https://www.facebook.com/tr?id=1436531296600883&ev=PageView&noscript=1"
 
 <div id="contents">
 
-    <div id="slideshome" class="slideshome-yt">
-      <div id="slides">
-          <ul class="slides-container">
-          
-              <li>
-                  <a href="https://www.yuktravel.com/about" >
-                  
-                  <picture>
-                      <source srcset="https://images.yuktravel.com/images/upload/banners/mthumbs/new-header-yuktravel-family-04.jpg" media="(max-width: 640px)">
-                      <source srcset="https://images.yuktravel.com/images/upload/banners/images/new-header-yuktravel-family-04.jpg">
-                      
-                      <img src="https://images.yuktravel.com/images/upload/banners/images/new-header-yuktravel-family-04.jpg"  />
-                      
-                  </picture>
-                  
-                  </a>
-                  
-              </li>
-          
-              <li>
-                  <a href="https://www.yuktravel.com/paket-liburan-di-australia" >
-                  
-                  <picture>
-                      <source srcset="https://images.yuktravel.com/images/upload/banners/mthumbs/Home-image-Australia-Scenic-Skyway-fullsite-FINALV2.jpg" media="(max-width: 640px)">
-                      <source srcset="https://images.yuktravel.com/images/upload/banners/images/Home-image-Australia-Scenic-Skyway-fullsite-FINALV2.jpg">
-                      
-                      <img src="gambar jumbo 1.jpg"  />
-                      
-                  </picture>
-                  
-                  </a>
-                  
-              </li>
-          
-              <li>
-                  <a href="gambar jumbo 2.jpg"  target=blank>
-                  
-                  <picture>
-                      <source srcset="https://images.yuktravel.com/images/upload/banners/mthumbs/banner-homepage.jpg" media="(max-width: 640px)">
-                      <source srcset="https://images.yuktravel.com/images/upload/banners/images/banner-homepage.jpg">
-                      
-                      <img src="gambar jumbo 3.jpg"  />
-                      
-                  </picture>
-                  
-                  </a>
-                  
-              </li>
-          
-              <li>
-                  <a href="https://www.yuktravel.com/promo/iceland-madness" >
-                  
-                  <picture>
-                      <source srcset="https://images.yuktravel.com/images/upload/banners/mthumbs/banner-homepage-iceland-madness-till-oct-18.jpg" media="(max-width: 640px)">
-                      <source srcset="https://images.yuktravel.com/images/upload/banners/images/banner-homepage-iceland-madness-till-oct-18.jpg">
-                      
-                      <img src="gambar jumbo 4.jpg"  />
-                      
-                  </picture>
-                  
-                  </a>
-                  
-              </li>
-          
-              <li>
-                  <a href="https://www.yuktravel.com/promo/genting-dream-cruise" >
-                  
-                  <picture>
-                      <source srcset="https://images.yuktravel.com/images/upload/banners/mthumbs/ban-homepage-promo-genting-dream-cruise-1600x300.jpg" media="(max-width: 640px)">
-                      <source srcset="https://images.yuktravel.com/images/upload/banners/images/ban-homepage-promo-genting-dream-cruise-1600x300.jpg">
-                      
-                      <img src="gambar_jmb_5.jpg"  />
-                      
-                  </picture>
-                  
-                  </a>
-                  
-              </li>
-          
-              <li>
-                  <a href="https://www.yuktravel.com/site/club-med-maldives-winter-season-sale" >
-                  
-                  <picture>
-                      <source srcset="https://images.yuktravel.com/images/upload/banners/mthumbs/ban-club-med-maldives-winter-season-sale.jpg" media="(max-width: 640px)">
-                      <source srcset="https://images.yuktravel.com/images/upload/banners/images/ban-club-med-maldives-winter-season-sale.jpg">
-                      
-                      <img src="gambar_jmb_6.JPG    "  />
-                      
-                  </picture>
-                  
-                  </a>
-                  
-              </li>
-          
-              <li>
-                  <a href="https://blog.yuktravel.com/"  target=blank>
-                  
-                  <picture>
-                      <source srcset="https://images.yuktravel.com/images/upload/banners/mthumbs/Ban-Web-Blog-Juli18.JPG" media="(max-width: 640px)">
-                      <source srcset="https://images.yuktravel.com/images/upload/banners/images/Ban-Web-Blog-Juli18.JPG">
-                      
-                      <img src="https://images.yuktravel.com/images/upload/banners/images/Ban-Web-Blog-Juli18.JPG"  />
-                      
-                  </picture>
-                  
-                  </a>
-                  
-              </li>
-          
-          </ul>
-          <nav class="slides-navigation">
-            <a href="#" class="next"><img src=https://www.yuktravel.com/assets/i/arr-big-r.png /></a>
-            <a href="#" class="prev"><img src=https://www.yuktravel.com/assets/i/arr-big-l.png /></a>
-          </nav>
-        </div>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="gambar jumbo 1.jpg" >
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    <div class="item">
+      <img src="gambar jumbo 2.jpg" >
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    ...
   </div>
+
+  <!-- Controls -->
+  <nav class="slides-navigation">
+    <a href="#" class="next"><img src=https://www.yuktravel.com/assets/i/arr-big-r.png /></a>
+    <a href="#" class="prev"><img src=https://www.yuktravel.com/assets/i/arr-big-l.png /></a>
+  </nav>
+
   <div class="searchbar">
       <div class=container-fluid>
           <div class="row ">
@@ -488,6 +404,6 @@ src="https://www.facebook.com/tr?id=1436531296600883&ev=PageView&noscript=1"
               </div>
             </div>
   
-
+            <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
