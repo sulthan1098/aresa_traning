@@ -1,0 +1,40 @@
+footer{
+    padding: 15px 0 0;
+    font-size: 13px;
+    background-color:#e7f1f6;
+    color: #425762;
+    border-top: 1px solid #b3c9d4;
+}
+
+footer .col-xs-3{
+    padding: 0px;
+}
+
+footer small{
+    font-size: 12px;
+    font-style: normal;
+    color: #425762;
+    font-family: roboto;
+}
+div.container{
+    width: 970px;
+    padding: 0px 20px;
+}
+footer .col-xs-9{
+    padding: 0px;
+}
+ ul, ul li a{
+     list-style: none;
+     padding: 0px;
+    font-family: roboto;
+    font-weight: normal;
+    color: #425762;
+    font-size: 12px;
+ }
+  
+ .btn-lg{
+     padding: 10px 19px;
+ }
+
+ 
+
