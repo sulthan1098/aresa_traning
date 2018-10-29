@@ -2139,7 +2139,7 @@ p.readmore:after {
     padding:10px;
 }
 
-
+/********** REVISI 20 Jul 2016 *************/
 
 #tiket .booking_form {margin-right: 0px;}
 #tiket .col-xs-4 {padding-left: 0px; }
@@ -2150,10 +2150,25 @@ p.readmore:after {
 #tiket .select_booking_wrap {margin: 0px;}
 #tiket .booking_box_button button{margin-top: 21px;}
 
+/* 404 Error Page */
+.error_page {position:relative;top:30px;}
+.error_page hr {position:relative;top:15px;}
+.error_page .content {width:650px;height:300px;position:relative;top:-20px;}
+.error_page .content h6 {font-size:25px;}
+.error_page .content h1 {font-size:70px!important;margin-bottom:-10px!important;}
+
+.error_page #bold1 {font-weight:bold;font-size:22px;margin-bottom:0px;}
+.error_page #bold2 {font-weight:bold;font-size:16px;}
+
+.error_page .list ul li{
+   margin-bottom:4px;
+}
+#error_img {float:right;position:relative;right:0;top:-12px;}
 
 
-
-.sort_bar 
+/* TAMBAHAN BARU Combo Flight Result */
+/*Sort Bar */
+.sort_bar { /* margin:15px 0; */ }
 .sort_bar .btn-group .btn {
     background:#DBE9F2;
     color:#4C6A7E;

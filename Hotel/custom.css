@@ -1,0 +1,617 @@
+.pointer{cursor:pointer;}
+.soft-yellow{background:#fcf8e3!important;}
+.soft-blue{background:#daeaf2!important;};
+.ui-datepicker-trigger {display:none;}
+.border-error{border:1px solid #E74C3C!important;}
+.border-success{border:1px solid #2ECC71!important;}
+.error{color:#E74C3C!important;}
+.success{color:#2ECC71!important;}
+.hide{display:none;}
+.size3{width:180px;margin:0px auto;}
+.form-control[readonly]{background-color:#fff!important;}
+.form-control[disabled]{color:#b3c9d4!important;}
+.btn-primary-choose{background:#b3c9d4!important; border:1px solid #b3c9d4!important;}
+.btn-primary-choose span {cursor: url("../images/ezycursor2.cur"), default; border-right:1px solid #98ABB4 !important;}
+.btn-primary-choose i{border-left:1px solid #fff!important;}
+/*UI AUTOCOMPLETE*/
+.ui-autocomplete
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: default;
+    background: url("images/ui-bg_flat_75_ffffff_40x100.png") repeat-x scroll 50% 50% #FFFFFF;
+	border: 1px solid #b3c9d4;
+	border-radius: 5px;
+	box-shadow: none;
+	-webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+	transition: border .25s linear, color .25s linear, background-color .25s linear;
+    list-style: none outside none;
+    margin: 0;
+    outline: medium none;
+    padding: 2px;
+    z-index: 9999;
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    line-height: 2.5;
+}
+
+.ui-menu-item
+{
+    list-style-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
+    padding: 0;
+    width: 100%;
+    color: #34495e;
+	font-family: 'Open Sans', Arial, Sans-Serif;
+    font-size: 14px;
+    cursor: default;
+    text-align: left;
+    padding-left:12px!important;
+}
+.ui-menu .ui-menu-item a {
+	text-decoration: none;
+	display: block;
+	padding: 2px .4em;
+	line-height: 1.5;
+	min-height: 0; /* support: IE7 */
+	font-weight: normal;
+}
+
+.ui-menu .ui-menu-item:hover {
+    background:#daeaf2;
+    cursor:pointer;
+}
+
+.ui-menu .ui-menu-item a.ui-state-focus,
+.ui-menu .ui-menu-item a.ui-state-active {
+	font-weight: normal;
+	margin: -1px;
+    background-color: #C0C0C0;
+}
+
+.ui-menu li :hover
+{
+    background-color: #C0C0C0;
+}
+
+.ui-autocomplete-category
+{
+    font-weight: bold;
+    padding: .2em .4em;
+    margin: .8em 0 .2em;
+    line-height: 1.5;
+    text-align: left;
+    margin-left: 5px;
+    font-size:16px!important;
+    border-bottom:1px solid #b3c9d4!important;
+}
+
+.ui-autocomplete-category:hover
+{
+    background-color:#fff!important;
+    cursor: default!important;
+}
+
+.ui-autocomplete-loading
+{
+    background: white url('../images/ui-anim_basic_16x16.gif') right 14% center no-repeat;
+}
+.tripple img
+{
+    margin-bottom: 0px;
+}
+.tripple span
+{
+    float: left;
+    margin-top: 0px;
+}
+
+.error-message
+{
+    display: none;
+    position: absolute;
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 250px;
+    z-index: 10;
+    color: red;
+    font-weight: bold;
+}
+
+.mini
+{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.ui-helper-hidden-accessible{
+    display: none;
+}
+
+.ui-state-highlight {
+    color: #ff862c!important;
+	font-weight:bold;
+}
+
+.ui-datepicker-today a{color:#425762!important;font-weight:normal;}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {cursor:pointer!important;}
+/*UI DATEPICKER*/
+button.ui-button::-moz-focus-inner { border: 0; padding: 0; }
+.ui-datepicker {
+    padding:0 10px 10px; 
+    display:none;
+    background:#fff;
+    border: 1px solid #b3c9d4;
+	border-radius: 5px;
+    font-family: 'Open Sans', Arial, Sans-Serif;
+/*    display:table;*/
+	z-index:2000!important;
+}
+.ui-datepicker .ui-datepicker-header { position:relative; padding:.2em 0; }
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next { position:absolute; top: 11px; width:9px; height:12px;text-indent:-99999px;cursor:pointer;}
+.ui-datepicker .ui-datepicker-prev {
+    left:10px;
+    background:url(../images/icons/arrow_left.png) 0 0 no-repeat ;
+    width:12px;
+    height:18px;
+}
+.ui-datepicker .ui-datepicker-next { 
+    right:10px;
+    background:url(../images/icons/arrow_right.png) 0 0 no-repeat ;
+    width:12px;
+    height:18px;
+}
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span { display: block; position: absolute; left: 50%; margin-left: -8px; top: 50%; margin-top: -8px;  }
+.ui-datepicker .ui-datepicker-title {
+    text-align: center;
+    font-family: 'Roboto Slab', Georgia, serif;
+    font-size:18px;}
+.ui-datepicker .ui-datepicker-title select { 
+    background: url("../images/angle-down.png") #ffffff no-repeat;
+    background-size: 14px 9px;
+    background-position: right 8px  center;
+    background-position-x: 95%;
+    background-position-y: 50%;
+    font-size:1em; margin:1px 0; 
+}
+.ui-datepicker select.ui-datepicker-month-year {width: 100%;}
+.ui-datepicker select.ui-datepicker-month, 
+.ui-datepicker select.ui-datepicker-year {
+    width: 40%;
+    border:1px solid #CCC;
+    font-family: 'Open Sans', Arial, Sans-Serif;
+    padding-left:5px;
+    }
+
+.ui-datepicker select.ui-datepicker-month option {
+    padding-left: 10px;
+}
+.ui-datepicker table {width: 100%; font-size:16px; border-collapse: collapse; }
+.ui-datepicker th {
+    width:30px;
+    height:30px;
+    line-height:30px; 
+    background: #fff;
+    color:#fff;
+    text-align: center; 
+    border-top:2px solid #b3c9d4!important;
+    border:1px solid #daeaf2;
+    color:#425762;
+ }
+ 
+.ui-datepicker th.ui-datepicker-week-end {background:#FFDADA;}
+.ui-datepicker th span	{display: block;text-align: center; font-weight:bold;border-bottom: 1px solid #b3c9d4;}
+.ui-datepicker td {
+    text-align:center;
+    border:1px solid #daeaf2;
+    height:30px;
+    }
+.ui-datepicker td a{
+    color:#425762;
+    }
+    
+.ui-datepicker-current-day .ui-state-active {background:#f58634!important;color:#fff;}
+
+
+
+.ui-datepicker-week-end,.ui-datepicker td.ui-datepicker-week-end a  {background:#FFE6E6;}
+
+.ui-datepicker td span, .ui-datepicker td a {display: block;width:53px;height:35px;line-height:35px; text-align: center; text-decoration: none; }
+.ui-datepicker .ui-datepicker-buttonpane { background-image: none; margin: .7em 0 0 0; padding:0 .2em; border-left: 0; border-right: 0; border-bottom: 0; }
+.ui-datepicker .ui-datepicker-buttonpane button { float: right; margin: .5em .2em .4em; cursor: pointer; padding: .2em .6em .3em .6em; width:auto; overflow:visible; }
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current { float:left; }
+.ui-datepicker .ui-datepicker-calendar .ui-state-hover	{background: #FF862C;color:#fff!important;}
+.ui-datepicker-unselectable{color: #C7CBD3!important;background:;}
+.ui-datepicker-trigger{display: none!important;}
+
+/*BOOTSTRAP TOOLTIP*/
+.popover{
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.50)!important;
+    -webkit-box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.50)!important;
+    -moz-box-shadow:    0px 0px 9px rgba(0, 0, 0, 0.50)!important;
+    box-shadow:         0px 0px 9px rgba(0, 0, 0, 0.50)!important;
+}
+
+.popover-content {
+    max-width: 250px;
+    width: 250px; 
+	padding:0px 0 10px!important;
+}
+
+
+
+.cancel_policy_tooltip {
+    max-width: 250px;
+    width: 250px; 
+	padding-left:8px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:8px;
+}
+
+.popover-content h3 {
+    margin-bottom:0px!important;
+}
+
+/*custom tooltip for hotel*/
+.hotel_price_breakdown h3 {padding:10px;}
+.hotel_price {width:250px;}
+.hotel_price tr td {padding:0 10px;border-bottom:1px solid #b3c9d4;}
+.hotel_price tr td.text{text-align:left; font-size:14px!important;}
+.hotel_price tr td.currency{text-align:right; font-size:14px!important;}
+.hotel_price tr td.value{text-align:right; font-size:14px!important;}
+
+/*for paging*/
+.filter_invisible{
+	display:none;
+}
+
+.paging_invisible{
+	display:none;
+}
+
+/*map hotel section*/
+#map-modal{top:10%;z-index:10000;}
+#map-modal .modal-dialog{width:800px;}
+/* .modal-body{background:#fff;width:100%;height:400px;padding:0px!important;position:relative!important;} */
+.map-section {width:730px;height:370px;margin-top:18px;}
+/*tripadvisor review */
+#tripadvisor-modal{top:15%;z-index:10000;}
+#tripadvisor-modal .modal-dialog{width:800px; height:600px; overflow:auto;}
+
+/*modal*/
+#button-modal{line-height:0.2!important;font-size: 15px;padding: 4px !important;}
+.modal-loading{height:50px;padding:10px;}
+.modal-header{height:55px!important;}
+.modal-header.map{height:80px!important;}
+.modal-title{float:left; width:80%;}
+.modal-title h6{line-height:0.2;}
+.modal-title .hotel-address{margin-top:12px!important;}
+.modal-action{float:right; width:10%;}
+
+/*hotel detail price*/
+.hotel_price tr td{color:#425762!important;}
+
+/*latest flight search*/
+.latest-flight-information{border-top:1px solid #b3c9d4;margin-left: 15px!important; width:900px;padding-top:10px;}
+
+/*newsletter*/
+.newsletter-button i {font-size: 18px;position:relative;margin-right: 3px;}
+
+/*styling the search flight*/
+.grey1{
+	color:#ccc;
+}
+
+
+/* list_ticket_latest Bagde */
+#oneway_badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 11px;
+    line-height: 1;
+    color: #1f5ca9;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border:1px solid #1f5ca9;
+    border-radius: 3px;
+}
+
+#return_badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 11px;
+    line-height: 1;
+    color: #f58634;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border:1px solid #f58634;
+    border-radius: 3px;
+}
+
+/*revisi untuk registration form */
+.member_registration_box .input_phone {width: 248px!important; float: left!important; margin-left:10px!important; }
+.member_registration_box .input_phonecode {width: 100px!important; float: left!important; }
+#loading_bar div {width:40px; margin:auto; margin-top:10px; text-align:center;}
+#loading_bar div i {font-size:40px; padding-right:10px; display:block;}
+
+.padding-alert{padding:10px 15px; margin-top:15px; display:block;}
+
+/*send confirmation image*/
+.emailsent_image{
+	margin:auto;
+	width:250px;
+	height:275px;
+	margin-top:30px;
+}
+.registrasi_sukses{
+	margin-bottom:30px;
+}
+.registrasi_sukses h1{
+	text-align:center;
+}
+.registrasi_sukses p{
+	text-align:center
+}
+.member_registration_box .input_phonecode {width: 100px!important; float: left!important; }
+.member_registration_box .input_phonecode {width: 100px!important; float: left!important; }
+#loading_bar div {width:40px; margin:auto; margin-top:10px; text-align:center;}
+#loading_bar div i {font-size:40px; padding-right:10px; display:block;}
+
+.padding-alert{padding:10px 15px; margin-top:15px; display:block;}
+
+.payment-partner { position:relative;top: 30px;float:left;}
+.share_button_container{overflow:hidden; width:360px; margin:auto; height:100px;}
+
+.price_list .currency {width:40%;}
+
+.changedate_body {border-bottom:0px!important;}
+.price_list {border-top:1px solid #b3c9d4 !important;}
+
+.list_add_info {
+    margin-bottom:0px;
+}
+
+#openMap {width: 270px;height:75px;margin-bottom:10px;border-radius:5px;background:#1F5CA9;padding:13px 17px;cursor:pointer;color:#fff;}
+#openMap:hover {background:#2765b3;}
+#openMap b {font-size:18px;}
+#openMap p {margin-bottom:-7px;}
+
+/* maps hotel css */
+    #content-maps {
+        background-color: transparent;
+        bottom: 0;
+        color: #fff;
+        font-size:20px;
+        left: 0;
+        padding: 30px;
+	padding-top:50px;
+        position: fixed;
+        right: 0;
+        text-align: center;
+        top: 0;
+        z-index: 1601;
+        transition: opacity .25s ease-in-out;
+        -moz-transition: opacity .25s ease-in-out;
+        -webkit-transition: opacity .25s ease-in-out;
+    }
+    
+    #content-maps-2 {
+      margin:auto;
+      background-color:#C9C8C8;
+      padding:10px 11px 10px 11px;
+      border-radius:5px;
+    }
+    
+    /* maps setting */
+    #map {
+        height: 100%;
+    }
+
+    #iw-container {
+        margin-bottom: 0px;
+        min-width: 80px;
+    }
+    #iw-container .iw-title {
+        border-radius: 2px 2px 0 0!important;
+        color: #1F5CA9!important;
+        font-family: "Roboto Slab",Georgia,serif!important;
+        font-size: 18px!important;
+        font-weight: 500!important;
+        line-height: 1.2!important;
+        margin: 0!important;
+        text-align: left!important;
+    }
+    #iw-container .iw-content {
+        
+        font-size: 13px!important;
+        font-weight: 400!important;
+        line-height: 0!important;
+        margin-right: 1px!important;
+        max-height: 20px!important;
+	overflow: hidden!important;
+	padding: 0 3px!important;
+	margin-top: 8px;
+    }
+    
+    
+    .gm-style .gm-style-iw {
+        font-size: 13px!important;
+        font-weight: 300!important;
+        margin-top: 2px!important;
+        overflow: hidden!important;
+        top: 8px!important;
+        left:10px!important;
+    }
+
+    
+    .iw-content p {
+        color: #c80000!important;
+        font-size: 16px!important;
+        font-weight: bold!important;
+        margin-left: -4px!important;
+        text-align: left!important;
+    }
+    
+    /* end maps setting */
+
+    /* detail hotel information */
+    #content-detail-hotel-maps {
+        background-color: white!important;
+        border: 1px solid #b3c9d4!important;
+        left: 70px!important;
+        padding: 10px!important;
+        position: fixed!important;
+        top: 180px!important;
+        width: 280px!important;
+        -webkit-box-shadow: 3px 3px 0px 0px #b3c9d4!important;
+        -moz-box-shadow:    3px 3px 0px 0px #b3c9d4!important;
+        box-shadow:         3px 3px 0px 0px #b3c9d4!important;
+    }
+
+    .close-detail-hotel {
+        background: #fff none repeat scroll 0 0;
+        border: 1px solid #99b1bd;
+        border-radius: 25px;
+        color: #8698a1;
+        cursor: pointer;
+        font-size: 14px;
+        height: 20px;
+        line-height: 1.3;
+        opacity: 1;
+        position: absolute;
+        right: 4px;
+        top: 4px;
+        width: 20px;
+        z-index: 10000;
+    }
+    
+    .close-hotel-maps {
+        background: #fff none repeat scroll 0 0;
+        border: 1px solid #99b1bd;
+        border-radius: 25px;
+        color: #8698a1;
+        cursor: pointer;
+        font-size: 15px;
+        height: 23px;
+        line-height: 1.3;
+        opacity: 1;
+        position: absolute;
+        right: 45px;
+        top: 94px;
+        width: 23px;
+        z-index: 10000;
+    }
+    
+    
+    .map-btn {
+        color: #fff;
+        background-color: #f58634;
+        box-shadow:0 -4px 0 rgba(0, 0, 0, 0.15) inset;
+        width:100%;
+        margin-top:10px;
+    }
+    
+    .map-btn a {
+        color: #fff;}
+    
+    .detail-hotel-layout .btn-primary {float:left!important;width:100%!important;margin-top:10px!important;}
+    .detail-hotel-layout .btn-primary a{color:#fff!important;}
+    
+    .detail-hotel-layout img
+        {
+        width: 100%;
+        height: 150px;
+        max-height:190px;
+    }
+    .detail-hotel-layout p
+        {
+        margin-top:1px;
+        margin-bottom:1px;
+    }
+    .hotel-name-detail-maps
+        {
+        color: #1f5ca9 !important;
+        font-family: "Roboto Slab",Georgia,serif !important;
+        font-size: 18px !important;
+        font-weight: 500 !important;
+        line-height: 1.2 !important;
+        margin: 7px 0 0 !important;
+        text-align: left !important;
+    }
+    .hotel-address-maps{
+        color: #425762 !important;
+        font-size: 13px !important;
+        line-height: 1.2;
+        margin: 3px 0 12px !important;
+        text-align: left !important;
+    }
+
+    .hotel-get-booking {
+        font-size:14px;
+        font-weight:bold:
+    }
+
+    .hotel-price-book {
+        color: #c80000!important;
+        font-size: 16px!important;
+        font-weight: bold!important;
+        margin: -5px 0 10px !important;
+        text-align: left!important;
+    }
+
+    .hotel-book-botton {
+        text-align:center;
+    }
+    .hotel-book-botton a {
+        background-color: rgb(254, 114, 51);
+        padding: 3px 6px;
+        text-decoration: none;
+        color: #fff;
+        font-weight:bold;
+        font-size:18px;
+        border-radius:3px;
+    }
+    /* detail hotel information */
+    
+.bg-silver
+{
+    background: silver none repeat scroll 0 0;
+}
+    
+/* maps hotel css */
+
+#scrollToSearch {
+    position: relative; 
+    top: -100px;
+}
+
+.dalam_negeri .btn{
+	border: 1px solid rgb(179, 201, 212) !important;
+}
+
+/********** REVISI 20 Jul 2016 - Class Flight*************/
+
+#collapseOne .booking_form {margin-right: 0px;}
+#collapseOne .col-xs-4 {padding-left: 0px; }
+#collapseOne .col-xs-4:last-child {padding-right: 0px; }
+#collapseOne .booking_form .radio-inline:first-child { padding-left: 0px;}
+#collapseOne .booking_form .list-booking-form:first-child {padding-left:0px;}
+#collapseOne .list-booking-form {padding-left: 5px; padding-right: 0px;}
+#collapseOne .select_booking_wrap {margin: 0px;}
+#collapseOne .booking_box_button button{margin-top: 21px;}
+
+.promo-breadcrumb
+{
+    margin-top : 75px;
+}
+
+.img_banner_flight {
+    margin-top : 5px !important;
+    margin-bottom : 5px !important;
+}

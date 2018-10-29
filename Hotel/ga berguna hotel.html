@@ -1,0 +1,219 @@
+
+<!DOCTYPE HTML>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+<head>
+  <title>Hotel Murah </title>
+  
+  <link rel="shortcut icon" href="../Gambar/favicon.ico" type="image/x-icon" /> 
+
+   <link href="hotel_style.css" rel="stylesheet" type="text/css" />
+<link href="normalize.css" rel="stylesheet" type="text/css" />
+<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="font-awesome.css" rel="stylesheet" type="text/css" />
+<link href="google-open-sans.css" rel="stylesheet" type="text/css" />
+<link href="google-roboto-slab.css" rel="stylesheet" type="text/css" />
+<link href="hovereffect.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="flickity.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="flat-ui.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="datepicker.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="custom.css" rel="stylesheet" type="text/css" media="screen" />
+    
+    
+    <script src="jquery.min.js" type="text/javascript"></script>
+<script src="jquery.validate.min.js" type="text/javascript"></script>
+<script src="modernizr.js" type="text/javascript"></script>
+<script src="skel.js" type="text/javascript"></script>
+<script src="init.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+<input type="hidden" id="overlay-status" value="1" />
+<input type="hidden" id="cache" value="false" />
+
+<div class="main_header_auto">
+<div class="container">
+<div class="row">
+<div class="col-xs-3"> 
+<a class="logo_autonav">
+<img src="../Gambar/travel_t.png"/>
+</a>
+</div>
+<div class="col-xs-9">
+<nav>
+ <ul>
+<li><a href="../tiket_pesawat.html">Tiket Pesawat</a></li>
+<li><a href="#">Hotel</a></li>
+<li><a href="#">Paket Wisata</a></li>
+<li><a href="#">Tour</a></li>  
+<li><a href="#">Visa</a></li>
+<li><a href="#">Paspor</a></li>
+<li><a href="#">Atraksi</a></li> 
+</ul>
+<a href="#"><div class="col-xs-3" id="promo_navbtn" style="font-size: 13px;position:relative;top:-7px;">Hot Promo &nbsp;<i class="fa fa-tag"></i></div></a>
+</nav>
+</div>
+</div>
+</div> 
+</div>
+
+<header>
+
+<div class="subnav_wrap">
+<div class="container">
+<div class="row">
+<nav class="subnav navbar-inverse" role="navigation">
+<div class="collapse navbar-collapse" id="navbar-collapse-01">
+<ul class="nav navbar-nav navbar-left">
+<li><a href="#"><i class="fa fa-home"></i></a></li>
+<li class="dropdown">
+<a href="#">Login</a>                                                
+</li>
+<li class="dropdown">
+<a href="#">Register</a>                                                
+</li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown">Panduan <b class="caret"></b></a>
+<span class="dropdown-arrow"></span>
+<ul class="dropdown-menu">
+<li><a target="_BLANK" href="#">Cara Pemesanan</a></li>
+<li><a target="_BLANK" href="#">Cara Pembayaran</a></li>
+<li><a target="_BLANK" href="#">Hubungi Kami</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="lang ind"></i> Bahasa <b class="caret"></b></a>
+<span class="dropdown-arrow"></span>
+<ul class="dropdown-menu">
+<li><a href="#"><i class="lang ind"></i>Indonesia</a></li>
+
+</ul>
+</li>
+<li><p>HelloEzy <b>(021) 62319838</b></p></li>
+</ul>
+</div>
+</nav>
+</div> 
+</div>    
+</div>
+
+
+
+
+<div class="navbar_wrap">
+<div class="container">
+<div class="row">
+<nav class="navbar navbar-inverse" role="navigation">
+<div class="collapse navbar-collapse col-xs-9" id="navbar-collapse-01">
+<ul class="nav navbar-nav navbar-left">
+<li><span>Harga Termurah</span></li>
+<li><div id="triangle">&nbsp;</div></li>
+<li><a href="#">Tiket Pesawat</a></li>
+<li><a href="#">Hotel</a></li>
+<li><a href="#">Paket Wisata</a></li>
+<li><a href="#">Tour</a></li>  
+<li><a href="#">Visa</a></li> 
+                        
+<li><a href="#">Paspor</a></li>
+						
+<li><a href="#">Atraksi</a></li>
+</ul>
+</div>
+<a href="#"><div class="col-xs-2" id="promo_navbtn">Hot Promo &nbsp;<i class="fa fa-tag"></i></div></a>
+</nav>
+</div> 
+</div>   
+</div>
+
+<div class="header_wrap">
+<div class="container">
+<div class="row">            
+<div class="navbar-header logo">
+<a class="navbar-brand" href="#">
+ </a>
+</div>            
+</div>
+
+<div id="bg"></div>
+<div id="ilustration">
+<img src="../Gambar/home_img.png" width="930" />
+</div>        
+</div>  
+</div>   
+</header>
+
+<section>
+    
+<style type="text/css">
+.tabing {
+border-top:1px solid #b3c9d4!important;
+top:25px;
+}
+</style>
+
+<section>
+<div class="container booking_box_wrap">        
+<div class="row">
+<div class="tab-content booking_box tabing">
+<div class="tab-pane active" id="hotel">
+<h1>Cari hotel dengan harga kamar termurah</h1>
+<hr /> 
+<form action="https://www.ezytravel.co.id/hotel/do_search" method="post" accept-charset="utf-8" id="form_hotel_search" onsubmit="return validate_hotel(this)">   
+<div class="col-1 booking_form">
+<label for="">Dimana Anda ingin menginap?</label>
+<div class="form-group has-feedback">
+<input type="text" value="" placeholder="" class="form-control destination_hotel" name="destination_hotel" id="destination_hotel" />
+<div class="destination-message hide">
+<i>&nbsp;&nbsp;</i>
+<span></span>
+</div>
+<input type="hidden" value="" class="hotel_destination" name="destination_slug"/>
+<input type="hidden" value="" name="destination_hidden" class="destination_hidden" />
+<input type="hidden" value="" class="destination_category" name="destination_category"/>
+<span class="form-control-feedback"><i class="fa fa-bed"></i></span>
+</div>
+</div>
+<div class="col-2 booking_form">
+<label for="">Tanggal Check In</label>
+<div class="form-group has-feedback">
+<input type="text" readonly="readonly" value="" placeholder="" class="form-control check_in" name="check_in" id="check_in">
+<span class="form-control-feedback fui-calendar"></span>
+</div>    
+</div>                      
+<div class="col-2 booking_form">
+<label for="">Tanggal Check Out</label>
+<div class="form-group has-feedback">
+<input type="text" readonly="readonly" value=""  placeholder="" class="form-control check_out" name="check_out" id="check_out">
+<span class="form-control-feedback fui-calendar"></span>
+</div>
+</div>                      
+<div class="col-3 booking_form">
+<div class="select_booking_wrap">
+<label for="">Jumlah Kamar</label>
+<select class="form-control select select-primary select_passenger" data-toggle="select" name="room" id="room">
+<option value="1" 1>1</option>
+<option value="2" >2</option>
+<option value="3" >3</option>
+<option value="4" >4</option>
+</select>
+	</div>
+</div>                       
+<div class="col-4 booking_form">
+	  <input type="submit" class="btn btn-block btn-lg btn-primary" value="Cari Hotel">
+</div>
+</form>				</div>
+            </div>
+        </div>
+    </div>        
+</section>
+
+
+
+
+
+</body>
+</html>
