@@ -1,108 +1,96 @@
+<!DOCTYPE html>
 
-<!DOCTYPE HTML>
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
 <head>
-  <title>Hotel Murah </title>
-  
-  <link rel="shortcut icon" href="../Gambar/favicon.ico" type="image/x-icon" /> 
+<title>Hotel Murah</title>
+<link rel="shortcut icon" href="../Gambar/favicon.ico" type="image/x-icon">
+<link href="hotel_style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="normalize.css" type="text/css">
+<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" type="text/css">
+<link rel="stylesheet" href="google-open-sans.css" type="text/css">
+<link rel="stylesheet" href="google-roboto-slab.css" type="text/css">
+<link rel="stylesheet" href="hovereffect.css" type="text/css">
+<link rel="stylesheet" href="flickity.css" type="text/css">
+<link rel="stylesheet" href="flat-ui.css" type="text/css">
+<link rel="stylesheet" href="datepicker.css" type="text/css">
+<link rel="stylesheet" href="custom.css" type="text/css">
 
-   <link href="hotel_style.css" rel="stylesheet" type="text/css" />
-<link href="normalize.css" rel="stylesheet" type="text/css" />
-<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-<link href="font-awesome.css" rel="stylesheet" type="text/css" />
-<link href="google-open-sans.css" rel="stylesheet" type="text/css" />
-<link href="google-roboto-slab.css" rel="stylesheet" type="text/css" />
-<link href="hovereffect.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="flickity.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="flat-ui.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="datepicker.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="custom.css" rel="stylesheet" type="text/css" media="screen" />
-    
-    
-    <script src="jquery.min.js" type="text/javascript"></script>
+<script src="jquery.min.js" type="text/javascript"></script>
 <script src="jquery.validate.min.js" type="text/javascript"></script>
 <script src="modernizr.js" type="text/javascript"></script>
 <script src="skel.js" type="text/javascript"></script>
 <script src="init.js" type="text/javascript"></script>
-
-</head>
+</head> 
 
 <body>
-
-<input type="hidden" id="overlay-status" value="1" />
-<input type="hidden" id="cache" value="false" />
+    
+<input type="hidden" id="overlay-status" value="1">
+<input type="hidden"  id="cahce" value="false">
 
 <div class="main_header_auto">
 <div class="container">
 <div class="row">
-<div class="col-xs-3"> 
-<a class="logo_autonav">
-<img src="../Gambar/travel_t.png"/>
-</a>
+<div class="col-xs-3">
+<a class="logo_autonav" href="#"><img src="../Gambar/logo_3.png">
+</a> 
 </div>
 <div class="col-xs-9">
 <nav>
- <ul>
-<li><a href="../tiket_pesawat.html">Tiket Pesawat</a></li>
+<ul>
+<li><a href="#">Tiket Pesawat</a></li>
 <li><a href="#">Hotel</a></li>
 <li><a href="#">Paket Wisata</a></li>
-<li><a href="#">Tour</a></li>  
+<li><a href="#">Tour</a></li>
 <li><a href="#">Visa</a></li>
 <li><a href="#">Paspor</a></li>
-<li><a href="#">Atraksi</a></li> 
+<li><a href="#">Atraksi</a></li>
 </ul>
-<a href="#"><div class="col-xs-3" id="promo_navbtn" style="font-size: 13px;position:relative;top:-7px;">Hot Promo &nbsp;<i class="fa fa-tag"></i></div></a>
+<a href="#"><div class="col-xs-3" id="promo_navbtn" style="font-size: 13px;position: relative;top: -7px;">Hot Promo &nbsp;<i class="fa fa-tag"></i></div></a>
 </nav>
 </div>
 </div>
-</div> 
+</div>
 </div>
 
 <header>
-
 <div class="subnav_wrap">
 <div class="container">
 <div class="row">
 <nav class="subnav navbar-inverse" role="navigation">
 <div class="collapse navbar-collapse" id="navbar-collapse-01">
 <ul class="nav navbar-nav navbar-left">
-<li><a href="#"><i class="fa fa-home"></i></a></li>
-<li class="dropdown">
-<a href="#">Login</a>                                                
+<li><a href="#"><i class="fas fa-home" aria-hidden="true"></i></a></li>
+<li class="dropwdown">
+<a href="#">Login</a> 
 </li>
-<li class="dropdown">
-<a href="#">Register</a>                                                
+<li class="dropwdown">
+<a href="#">Register</a>
 </li>
 </ul>
 <ul class="nav navbar-nav navbar-right">
-<li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown">Panduan <b class="caret"></b></a>
+<li class="dropwdown">
+<a href="#" class="dropdown-toogle" data-toogle="dropwdown">Panduan <b class="caret"></b></a>
 <span class="dropdown-arrow"></span>
 <ul class="dropdown-menu">
-<li><a target="_BLANK" href="#">Cara Pemesanan</a></li>
-<li><a target="_BLANK" href="#">Cara Pembayaran</a></li>
-<li><a target="_BLANK" href="#">Hubungi Kami</a></li>
+<li><a target="#" href="#">Cara Pemesanan</a></li>
+<li><a target="#" href="#">Cara Pembayaran</a></li>
+<li><a target="#" href="#">Hubungi Kami</a></li>
 </ul>
 </li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="lang ind"></i> Bahasa <b class="caret"></b></a>
+<li class="dropwdown">
+<a href="#" class="dropdown-toogle" data-toogle="dropdown"><i class="lang ind"></i>Bahasa<b class="caret"></b></a>
 <span class="dropdown-arrow"></span>
 <ul class="dropdown-menu">
 <li><a href="#"><i class="lang ind"></i>Indonesia</a></li>
-
 </ul>
 </li>
-<li><p>HelloEzy <b>(021) 62319838</b></p></li>
+<li><p>HelloEzy<b>(021) 62319838</b></p></li>
 </ul>
 </div>
 </nav>
-</div> 
-</div>    
 </div>
-
-
-
+</div>
+</div>
 
 <div class="navbar_wrap">
 <div class="container">
@@ -115,58 +103,58 @@
 <li><a href="#">Tiket Pesawat</a></li>
 <li><a href="#">Hotel</a></li>
 <li><a href="#">Paket Wisata</a></li>
-<li><a href="#">Tour</a></li>  
-<li><a href="#">Visa</a></li> 
-                        
+<li><a href="#">Tour</a></li>
+<li><a href="#">Visa</a></li>
 <li><a href="#">Paspor</a></li>
-						
 <li><a href="#">Atraksi</a></li>
 </ul>
 </div>
 <a href="#"><div class="col-xs-2" id="promo_navbtn">Hot Promo &nbsp;<i class="fa fa-tag"></i></div></a>
 </nav>
-</div> 
-</div>   
 </div>
-
+</div>
+</div>
 <div class="header_wrap">
 <div class="container">
-<div class="row">            
+<div class="row">
 <div class="navbar-header logo">
 <a class="navbar-brand" href="#">
- </a>
-</div>            
-</div>
+<svg version="1.1" id="Layer_1" xlmns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+width="250px" height="60px" viewBox="0 0 250 60" enable-background="new 0 0 250 60" xml:space="preserve">
+</a>
 
+
+</div>
+</div>
 <div id="bg"></div>
 <div id="ilustration">
-<img src="../Gambar/home_img.png" width="930" />
-</div>        
-</div>  
-</div>   
+<img src="../Gambar/home_img.png" width="930">
+</div>
+</div>
+</div>
 </header>
 
 <section>
-    
+
 <style type="text/css">
-.tabing {
-border-top:1px solid #b3c9d4!important;
-top:25px;
+.tabing{
+border-top: 1px solid #b3c9d4!important; 
+top: 25px;
 }
 </style>
 
 <section>
-<div class="container booking_box_wrap">        
+<div class="container booking_box_wrap">
 <div class="row">
 <div class="tab-content booking_box tabing">
 <div class="tab-pane active" id="hotel">
 <h1>Cari hotel dengan harga kamar termurah</h1>
-<hr /> 
-<form action="https://www.ezytravel.co.id/hotel/do_search" method="post" accept-charset="utf-8" id="form_hotel_search" onsubmit="return validate_hotel(this)">   
+<hr>
+<form action="#" method="post" accept-charset="utf-8" id="form_hotel_search" onsubmit="return validate_hotel(this)">
 <div class="col-1 booking_form">
 <label for="">Dimana Anda ingin menginap?</label>
 <div class="form-group has-feedback">
-<input type="text" value="" placeholder="Ketik nama hotel, kota, destinasi, atau tempat wisata" class="form-control destination_hotel" name="destination_hotel" id="destination_hotel" />
+<input type="text" value="" placeholder="Ketik nama hotel, kota, destinasi, atau tempat wisata" class="form-control destination_hotel" name="destination_hotel">
 <div class="destination-message hide">
 <i>&nbsp;&nbsp;</i>
 <span></span>
@@ -180,488 +168,351 @@ top:25px;
 <div class="col-2 booking_form">
 <label for="">Tanggal Check In</label>
 <div class="form-group has-feedback">
-<input type="text" readonly="readonly" value="2018-10-30" placeholder="Check-In" class="form-control check_in" name="check_in" id="check_in">
+<input type="text" readonly="readonly" value="2018-11-04" placeholder="Check-In" class="form-control check_in" name="check_in" id="check_in">
 <span class="form-control-feedback fui-calendar"></span>
-</div>    
-</div>                      
+</div>
+</div>
 <div class="col-2 booking_form">
 <label for="">Tanggal Check Out</label>
 <div class="form-group has-feedback">
-<input type="text" readonly="readonly" value="2018-10-31"  placeholder="Check-Out" class="form-control check_out" name="check_out" id="check_out">
+<input type="text" readonly="readonly" value="2018-11-05" placeholder="Check-Out" class="form-control check_out" name="check_out" id="check_out">
 <span class="form-control-feedback fui-calendar"></span>
 </div>
-</div>                      
+</div>
 <div class="col-3 booking_form">
 <div class="select_booking_wrap">
 <label for="">Jumlah Kamar</label>
-<select class="form-control select select-primary select_passenger" data-toggle="select" name="room" id="room">
+<select class="form-control select-primary select_pessenger" data-toogle="select" name="room" id="room">
 <option value="1" 1>1</option>
-<option value="2" >2</option>
-<option value="3" >3</option>
-<option value="4" >4</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
 </select>
-	</div>
-</div>                       
-<div class="col-4 booking_form">
-	  <input type="submit" class="btn btn-block btn-lg btn-primary" value="Cari Hotel">
 </div>
-</form>				</div>
-            </div>
-        </div>
-    </div>        
+</div>
+<div class="col-4 booking_form">
+<input type="submit" class="btn btn-block btn-lg btn-primary" value="Cari Hotel">
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
 </section>
 
-
-
-
 <div class="clear" style="height: 70px;">&nbsp;</div>
-<br />
+<br>
 <div class="container topcontent_wrap">
-    <div class="row">       
-    <!-- Main Feature --> <!-- DIFFRENT WITH HOME PAGE -->
-        <div class="col-xs-12 feature_wrap">
-        <div id="mainfeature">
-                        <h2>Alasan Pesan Hotel di Ezytravel</h2>
-            <hr />
-            <div class="feature">
-              <div class="feature-left">
-                <a href="#">
-                  <img class="feature-object" src="https://www.ezytravel.co.id/assets/images/icons/png/thumb.png?v=201610251209180" alt="icon 1" width="60">
-                </a>
-              </div>
-              <div class="feature-body">
-                <h3 class="feature-heading">Harga Termurah</h3>
-                <p>Nikmati penawaran harga termurah dengan diskon dan promo menarik setiap harinya.</p>                    
-              </div>
-            </div>
-            <div class="feature">
-              <div class="feature-left">
-                <a href="#">
-                  <img class="feature-object" src="https://www.ezytravel.co.id/assets/images/icons/png/trophy.png?v=201610251209180" alt="icon 1" width="60">
-                </a>
-              </div>
-              <div class="feature-body">
-                <h3 class="feature-heading">Berpengalaman</h3>
-                <p>Merupakan group Dwidaya Tour yang berpengalaman
-                hampir 50 tahun dibidang tour &amp; travel.
-                </p>                    
-              </div>    
-            </div>
-            <div class="feature">
-              <div class="feature-left">
-                <a href="#">
-                  <img class="feature-object" src="https://www.ezytravel.co.id/assets/images/icons/png/cs.png?v=201610251209180" alt="icon 1" width="60">
-                </a>
-              </div>                                
-              <div class="feature-body">
-                <h3 class="feature-heading">Customer Service</h3>
-                <p>Hari Senin - Jumat pada jam 08.00 sampai 19.00, Hari Sabtu pada jam 08.00 sampai 13.00, 
-                   Hari Minggu dan hari Libur Tutup. </p>                    
-              </div>
-            </div>                
-        </div>
-        </div>    
-    <!-- /Main Feature -->     </div>
+<div class="row">
+<div class="col-xs-12 feature_wrap">
+<div id="mainfeature">
+<h2>Alasan Pesan Hotel di Ezytravel</h2>
+<hr>
+<div class="feature">
+<div class="feature-left">
+<a href="#">
+<img class="feature-object" src="../Gambar/sip_1.png" alt="icon 1" width="60">
+</a>
 </div>
-<div class="clear" style="height: 20px;">&nbsp;</div>
- 
+<div class="feature-body">
+<h3 class="feature-heading">Harga Termurah</h3>
+<p>Nikmati harga termurah dengan diskon dan promo menarik setiap harinya.</p>
+</div>
+</div>
+<div class="feature">
+<div class="feature-left">
+<a href="#">
+<img class="feature-object" src="../Gambar/tropi_1.png" alt="icon 2" width="60">
+</a>
+</div>
+<div class="feature-body">
+<h3 class="feature-heading">Berpengalaman</h3>
+<p>Merupakan group Dwidaya Tour yang berpengalaman hampir 50 tahun dibidang tour &amp; travel.
+</p>
+</div>
+</div>
+<div class="feature">
+<div class="feature-left">
+<a href="#">
+<img class="feature-object" src="../Gambar/headseat_1.png" alt="icon 3" width="60">
+</a>
+</div>
+<div class="feature-body">
+<h3 class="feature-heading">Customer Service</h3>
+<p>Hari Senin - Jumat pada jam 08.00 sampai 19.00, Hari Minggu dan hari Libur Tutup.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 
-<!-- Juara -->
+<div class="clear" style="height: 20px";>&nbsp;</div>
+
 <div class="container">
-    <div class="homefeature">
-        <div class="gallery js-flickity" data-flickity-options='{ "autoPlay": true, "freeScroll": true, "contain": true, "prevNextButtons": false }'>
-            <!-- Item List -->
-              <div class="gallery-cell">
-                <div class="left">
-                    <img style="max-width:420px;" src="https://www.ezytravel.co.id/assets/images/ilustration/juara.png?v=201610251209180" />
-                </div>
-                <div class="right">
-                    <h4>Garansi Harga Terbaik</h4>
-                    <p style="font-size: 15px;">Kami menjamin Anda mendapatkan harga terbaik dan termurah. Silahkan bandingkan dengan agen perjalanan lainnya dan temukan perbedaannya.
-                    <br />
-                    <a href="#">
-                    <button class="btn btn-default navbar-btn btn-xs" type="button">Info Selengkapnya &nbsp;
-                    <i class="fa fa-chevron-circle-right" style="font-size: 13px;position:relative;margin-right: 3px;"></i>
-                    </button></a>
-                </div>
-              </div>
-            <!-- /Item List -->
-            <!-- Item List -->
-              <div class="gallery-cell">
-                <div class="left">
-                    <img style="max-width:420px;" src="https://www.ezytravel.co.id/assets/images/ilustration/instant.png?v=201610251209180" />
-                </div>
-                <div class="right">
-                    <h4>Tiket Langsung Issued</h4>
-                    <p style="font-size: 15px;">
-                    Ezytravel telah menggunakan teknologi Auto Issued Ticket, begitu Anda melakukan pembayaran, sistem kami akan mendeteksi pembayaran secara otomatis kemudian langsung mengirimkan Tiket Elektronik (eTicket) ke alamat email Anda.
-                    </p>
-                    <a href="#">
-                    <button class="btn btn-default navbar-btn btn-xs" type="button">Info Selengkapnya &nbsp;
-                    <i class="fa fa-chevron-circle-right" style="font-size: 13px;position:relative;margin-right: 3px;"></i>
-                    </button></a>
-                </div>
-              </div>
-            <!-- /Item List -->
-            <!-- Item List -->
-              <div class="gallery-cell">
-                <div class="left">
-                    <img style="max-width:420px;" src="https://www.ezytravel.co.id/assets/images/ilustration/jujur.png?v=201610251209180" />
-                </div>
-                <div class="right">
-                    <h4>Harga Jujur Tanpa Menjebak</h4>
-                    <p style="font-size: 15px;"> 
-                    Harga yang tertera di hasil pencarian tidak akan bertambah sampai proses pemesanan selesai. Semua biaya transaksi pembayaran ditanggung sepenuhnya oleh Ezytravel. 
-                    </p>
-                    <a href="#">
-                    <button class="btn btn-default navbar-btn btn-xs" type="button">Info Selengkapnya &nbsp;
-                    <i class="fa fa-chevron-circle-right" style="font-size: 13px;position:relative;margin-right: 3px;"></i>
-                    </button></a>
-                </div>
-              </div>
-            <!-- /Item List -->
-            
-            <!-- Item List -->
-              <div class="gallery-cell">
-                <div class="left">
-                    <img style="max-width:420px;" src="https://www.ezytravel.co.id/assets/images/ilustration/aman.png?v=201610251209180" />
-                </div>
-                <div class="right">
-                    <h4>Jaminan Aman Transaksi Online</h4>
-                    <p style="font-size: 15px;"> 
-                        Teknologi SSL dari RapidSSL dengan Sertifikat yang terotentikasi menjamin privasi dan keamanan transaksi online Anda. Konfirmasi instan dan e-tiket dikirim ke email Anda.
-                    </p>
-                    <a href="#">
-                    <button class="btn btn-default navbar-btn btn-xs" type="button">Info Selengkapnya &nbsp;
-                    <i class="fa fa-chevron-circle-right" style="font-size: 13px;position:relative;margin-right: 3px;"></i>
-                    </button></a>
-                </div>
-              </div>
-            <!-- /Item List -->
-            
-            <!-- Item List -->
-              <div class="gallery-cell">
-                <div class="left">
-                    <img style="max-width:420px;" src="https://www.ezytravel.co.id/assets/images/ilustration/ramah.png?v=201610251209180" />
-                </div>
-                <div class="right">
-                    <h4>Friendly Customer Service</h4>
-                    <p style="font-size: 15px;"> 
-                        ​Customer Service kami siap membantu dan melayani anda dengan ramah.
-                    </p>
-                    <a href="#">
-                    <button class="btn btn-default navbar-btn btn-xs" type="button">Info Selengkapnya &nbsp;
-                    <i class="fa fa-chevron-circle-right" style="font-size: 13px;position:relative;margin-right: 3px;"></i>
-                    </button></a>
-                </div>
-              </div>
-            <!-- /Item List -->
-        </div>
-    </div>
-</div>     
+<div class="homefeature">
+<div class="gallery js-flickity" data-flickity-options='{ "autoPlay": true. "freeScroll": true, "contain": true, "prevNextButtons": false}'>
 
-<!-- Newsletter Block -->
-<div class="newsletter_wrap">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-6 logo_ezynotify">
-                <img src="https://www.ezytravel.co.id/assets/images/logo/ezynotify.png?v=201610251209180" />
-            </div>
-            <div class="col-xs-6">
-                <div class="row"><h6>Jangan Ketinggalan Info &amp; Promo</h6></div>
-                <div class="row"><p>Daftarkan email Anda untuk mendapatkan informasi diskon dan promo menarik khusus bagi pendaftar newsletter kami.</p></div>
-                <div class="row">
-                        <div class="form-group has-feedback" style="width: 290px;float:left;margin-right:5px;">
-                            <input id="newsletter_main_signup" type="text" value="" placeholder="Masukkan Email..." class="form-control" />
-							<div class="newsletter-main-message hide">
-							   <i>&nbsp;&nbsp;</i>
-							   <span></span>
-							</div>
-                        </div>
-                        <div class="newsletter_button">
-                              <a onclick="signup_newsletter('newsletter_main_signup', 'newsletter-main-message'); return false;" class="btn btn-block btn-lg btn-primary">                                  
-                              Daftar &nbsp;
-                              <i class="fa fa-chevron-circle-right" style="font-size: 18px;position:relative;margin-right: 3px;"></i>
-                              </a>
-                        </div>
-                </div>
-                <div class="row"><i>Tanpa spam, low volume dan dapat di unsubscribe setiap saat</i></div>
-                
-            </div>
-        </div>
-        </div> <!-- /row -->
-    </div><!-- /container -->   
-<!-- /Newsletter Block -->
-    
-<div class="clear" style="height: 100px;">&nbsp;</div>
-<!-- Partner List -->
-<div class="container partner_logo">
-    <div class="hr-inline-text size1"><h6>Mitra Resmi Ezytravel</h6></div>
-    <hr />
-    <div class="row" style="margin: 25px 0!important;">
-        <div class="col-xs-4">
-            <a class="thumbnail" href="javascript:void(0)"><img src="https://www.ezytravel.co.id/assets/images/logo/iata.jpg?v=201610251209180" alt="IATA" /></a>
-        </div>
-        <div class="col-xs-4">
-            <a class="thumbnail" href="javascript:void(0)"><img src="https://www.ezytravel.co.id/assets/images/logo/asita.jpg?v=201610251209180" alt="ASITA" /></a>
-        </div>
-        <div class="col-xs-4">
-            <a class="thumbnail" href="javascript:void(0)"><img src="https://www.ezytravel.co.id/assets/images/logo/wonderful_indonesia.jpg?v=201610251209180" alt="Wonderful Indonesia" /></a>
-        </div>
-    </div>
-    
-    <div style="position:relative;top: 30px;;">
-        <div class="col-xs-12" style=""><hr /></div>
-        <div class="clear"></div>
-        <div class="hr-inline-text size2">Mitra Pembayaran Resmi</div>
-        
-        <div class="col-xs-3">
-            <a class="thumbnail" href="javascript:void(0)"><img src="https://www.ezytravel.co.id/assets/images/logo/payment/bca.jpg?v=201610251209180" alt="BCA" /></a>
-        </div>
-        <div class="col-xs-3">
-            <a class="thumbnail" href="javascript:void(0)"><img src="https://www.ezytravel.co.id/assets/images/logo/payment/mandiri.jpg?v=201610251209180" alt="Mandiri" /></a>
-        </div>
-        <div class="col-xs-3">
-            <a class="thumbnail" href="javascript:void(0)"><img src="https://www.ezytravel.co.id/assets/images/logo/payment/bni.jpg?v=201610251209180" alt="BNI" /></a>
-        </div>
-        <div class="col-xs-3">
-            <a class="thumbnail" href="javascript:void(0)"><img src="https://www.ezytravel.co.id/assets/images/logo/payment/bii.jpg?v=201610251209180" alt="BII" /></a>
-        </div>            
-        <div class="col-xs-3">
-            <a class="thumbnail" href="javascript:void(0)"><img src="https://www.ezytravel.co.id/assets/images/logo/payment/cimbniaga.jpg?v=201610251209180" alt="CIMB Niaga" /></a>
-        </div>
-        <div class="col-xs-3">
-            <a class="thumbnail" href="javascript:void(0)"><img src="https://www.ezytravel.co.id/assets/images/logo/payment/atm.jpg?v=201610251209180" alt="ATM Bersama" /></a>
-        </div>
-        <div class="col-xs-3">
-            <a class="thumbnail" href="javascript:void(0)"><img src="https://www.ezytravel.co.id/assets/images/logo/payment/bcaklikpay.jpg?v=201610251209180" alt="BCA KlikPay" /></a>
-        </div>
-        <div class="col-xs-3">
-            <a class="thumbnail" href="javascript:void(0)"><img src="https://www.ezytravel.co.id/assets/images/logo/payment/dokuwallet.jpg?v=201610251209180" alt="DOKU Wallet" /></a>
-        </div>
-        <div class="col-xs-3">
-            <a class="thumbnail" href="javascript:void(0)"><img src="https://www.ezytravel.co.id/assets/images/logo/payment/visa.jpg?v=201610251209180" alt="Visa" /></a>
-        </div>
-        
-        <div class="col-xs-3">
-            <a class="thumbnail" href="javascript:void(0)"><img src="https://www.ezytravel.co.id/assets/images/logo/payment/mastercard.jpg?v=201610251209180" alt="Master Card" /></a>
-        </div>
-        
-        <div class="col-xs-3">
-            <a class="thumbnail" href="javascript:void(0)"><img src="https://www.ezytravel.co.id/assets/images/logo/payment/indomaret.jpg?v=201610251209180" alt="Indomaret" /></a>
-        </div>
-        
-        <div class="col-xs-3">
-            <a class="thumbnail" href="javascript:void(0)"><img src="https://www.ezytravel.co.id/assets/images/logo/payment/alfamart.jpg?v=201610251209180" alt="AlfaMart" /></a>
-        </div>
-    </div>
+<div class="gallery-cell">
+<div class="left">
+<img style="max-width:420px;" src="../Gambar/juara_1.png">
 </div>
-<!-- /Partner List -->
+<div class="right">
+<h4>Garansi Harga Terbaik</h4>
+<p style="font-size: 15px;">Kami menjamin Anda mendapatkan harga terbaik dan termurah. Silahkan bandingkan dengan agen perjalan lainnya dan temukan perbedaanya.</p>
+<br>
+<a href="#">
+<button class="btn btn-default navbar-btn btn-xs" type="button">Info Selengkapnya &nbsp;
+<i class="fa fa-chevron-circle-right" style="font-size: 13px;position:relative;margin-right: 3px;"></i>
+</button></a>
+</div>
+</div>
+<div class="gallery-cell">
+<div class="left">
+<img style="max-width:420px;" src="../Gambar/instant_1.png" >
+</div>
+<div class="right">
+<h4>Tiket Langsung Issued</h4>
+<p style="font-size: 15;">Ezytravel telah menggunakan teknologi Auto Issued Ticket, begitu Anda melakukan pembayaran, sistem kami akan mendeteksi pembayaran secara otomatis kemudian langsung mengirimkan Tiket Elektronik (eTicket) ke alamat email Anda.</p>
+<a href="#">
+<button class="btn btn-default navbar-btn btn-xs" type="button">Info Selengkapnya &nbsp;
+<i class="fa fa-chevron-circle-right" style="font-size: 13px;position:relative;margin-right: 3px;"></i>
+</button></a>
+</div>
+</div>
+<div class="gallery-cell">
+<div class="left">
+<img style="max-width:420px;" src="../Gambar/jujur_1.png" >
+</div>
+<div class="right">
+<h4>Harga Jujur Tanpa Menjebak</h4>
+<p style="font-size: 15px;">Harga yang tertera di hasil pencarian tidak akan bertambah sampai proses pemesanan selesai. Semua biaya pembayaran ditanggung sepenuhnya oleh Ezytravel.
+</p>
+<a href="#">
+<button class="btn btn-default navbar-btn btn-xs" type="button">Info Selengkapnya &nbsp;
+<i class="fa fa-chevron-circle-right" style="font-size: 13px;position:relative;margin-right: 3px;"></i>
+</button></a>
+</div>
+</div>
+<div class="gallery-cell">
+<div class="left">
+<img style="max-width:420px;" src="../Gambar/aman_1.png" >
+</div>
+<div class="right">
+<h4>Jaminan Aman Transaksi Online</h4>
+<p style="font-size: 15px;">Teknologi SSL dari Rapid SSL dengan Sertifikat yang teroentikasi menjamin privasi dan keamanan transaksi online Anda. Konfirmasi instan dan e-ticket dikirim ke email Anda.
+</p>
+<a href="#">
+<button class="btn btn-default navbar-btn btn-xs" type="button">Info Selengkapnya &nbsp;
+<i class="fa fa-chevron-circle-right" style="font-size: 13px;position:relative;margin-right: 3px;"></i>
+</button></a>
+</div>
+</div>
+<div class="gallery-cell">
+<div class="left">
+<img  style="max-width:420 px;" src="../Gambar/ramah_1.png">
+</div>
+<div class="right">
+<h4>Friendly Customer Service</h4>
+<p style="font-size: 15px;">Customer Service kami siap membantu dan melayani anda dengan ramah.
+</p>
+<a href="#">
+<button class="btn btn-default navbar-btn btn-xs" type="button">Info Selengkapnya &nbsp;
+<i class="fa fa-chevron-circle-right" style="font-size: 13px;position:relative;margin-right: 3px;"></i>
+</button></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
 <div class="clear" style="height: 100px;">&nbsp;</div>
- 
 
+<div class="container partner_logo">
+<div class="hr-inline-text size1"><h6>Mitra Resmi Ezytravel</h6></div>
+<hr>
+<div class="row" style="margin: 25px 0!important;">
+<div class="col-xs-4">
+<a class="thumbnail" href="#"><img src="../Gambar/iata_1.jpg" alt="IATA"</a>
+</div>
+<div class="col-xs-4">
+<a class="thumbnail" href="#"><img src="../Gambar/asita_2.jpg" alt="ASITA"></a>
+</div>
+<div class="col-xs-4">
+<a class="thumbnail" href="#"><img src="../Gambar/wonderful_indonesia_1.jpg" alt="Wonderful Indonesia"></a>
+</div>
+</div>
 
-<script type='text/javascript'> 
-    $(document).ready(function() {
-        if(popup_banner_data['status'] == true)
-        {
-            html_popup_banner = '<a href="'+popup_banner_data['banner_url']+'" title="'+popup_banner_data['banner_caption']+'" target="_blank">'+
-                                '<img src="'+popup_banner_data['banner_image_url']+'" class="img-responsive"/></a>';
-            $("#promoModal").modal('show');
-            $('.modal-body').append(html_popup_banner);
-        }
-        
-        
-        if(catfish_banner_data['status'] == true)
-        {
-            html_catfish_banner = '<div class="bottom_ad">'+
-                                '<a href="'+catfish_banner_data['banner_url']+'" title="'+catfish_banner_data['banner_caption']+'" target="_blank">'+
-                                    '<img src="'+catfish_banner_data['banner_image_url']+'">'+
-                                '</a>'+
-                                '<div class="close">x</div>'+
-                                '</div>';
-            $('#banner_catfish').html(html_catfish_banner);
-        }
-        
-        $('.close').click(function(){
-            $(this).parents('.bottom_ad').css('display','none');
-        });
-    });
-</script>
-    
-<!-- Promo Banner On Page Load -->
-<div class="modal fade promo-modal" id="promoModal" tabindex="-1" role="dialog" aria-labelledby="promoModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-body">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-times fa-stack-1x"></i>
-                </span>
-            </span>
-        </button>
-      </div>
-    </div>
-  </div>
+<div style="position:relative;top: 30px;;">
+<div class="col-xs-12" style=""><hr></div>
+<div class="clear"></div>
+<div class="hr-inline-text size2">Mitra Pembayaran Resmi</div>
+
+<div class="col-xs-3">
+<a class="thumbnail" href="#"><img src="../Gambar/bca_1.jpg" alt="BCA"></a>
+</div>
+
+<div class="col-xs-3">
+<a class="thumbnail" href="#"><img src="../Gambar/mandiri_1.jpg" alt="Mandiri"></a>
+</div>
+
+<div class="col-xs-3">
+<a class="thumbnail" href="#"><img src="../Gambar/bni_1.jpg" alt="BNI"></a>
+</div>
+
+<div class="col-xs-3">
+<a class="thumbnail" href="#"><img src="../Gambar/bii_1.jpg" alt="BII"></a>
+</div>
+
+<div class="col-xs-3">
+<a class="thumbnail" href="#"><img src="../Gambar/cimbniaga_1.jpg" alt="CIMB Niaga"></a>
+</div>
+
+<div class="col-xs-3">
+<a class="thumbnail" href="#"><img src="../Gambar/atm_1.jpg" alt="ATM Bersama"></a>
+</div>
+
+<div class="col-xs-3">
+<a class="thumbnail" href="#"><img src="../Gambar/bcaklik_1.jpg" alt="BCA KlikPay"></a>
+</div>
+
+<div class="col-xs-3">
+<a class="thumbnail" href="#"><img src="../Gambar/dokuwallet_1.jpg" alt="DOKU Wallet"></a>
+</div>
+
+<div class="col-xs-3">
+<a class="thumbnail" href="#"><img src="../Gambar/visa_1.jpg" alt="Visa"></a>
+</div>
+
+<div class="col-xs-3">
+<a class="thumbnail" href="#"><img src="../Gambar/mastercard_1.jpg" alt="Master Card"></a>
+</div>
+
+<div class="col-xs-3">
+<a class="thumbnail" href="#"><img src="../Gambar/indomaret_1.jpg" alt="Indomaret"></a>
+</div>
+
+<div class="col-xs-3">
+<a href="thumbnail" href="#"><img src="../Gambar/alfamart_1.jpg" alt="Alfamart"></a>
+</div>
+</div>
+</div>
+
+<div class="clear" style="height: 100px;">&nbsp;</div>
+
+<div class="modal fade promo-modal" id="promoModal" tabindex="-1" aria-labelledby="promoModalLabel">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-body">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+<span aria-hidden="true">
+<span class="fa-stack fa-lg">
+<i class="fas fa-times fa-stack-1x"></i>
+</span>
+</span>
+</div>
+</div>
+</div>
 </div>
 
 <div id="banner_catfish"></div>
 
-<footer>        
-    <div class="container">
-        <div class="clear" style="height: 20px;">&nbsp;</div>
-        <div class="row">
-            <div class="col-xs-3"><img src="https://www.ezytravel.co.id/assets/images/logo/logo_3.png?v=201610251209180" width="200" /></div>
-            <div class="col-xs-9"><small>EZYTRAVEL.co.id - adalah situs pemesanan tiket pesawat murah dengan berbagai rute penerbangan dari berbagai maskapai baik domestik maupun internasional, juga melayani pemesanan hotel dari bebagai kota yang ada di Indonesia maupun mancanegara serta menyediakan wisata kapal pesiar (cruise), paket wisata dan tur terlengkap ke berbagai destinasi.</small></div>
-        </div>
-        <div class="clear" style="height: 10px;">&nbsp;</div>
-        <hr />
-        <div class="clear" style="height: 10px;">&nbsp;</div>
-        <div class="row">
-              <div class="col-xs-2">
-                    <ul>
-                        <li><b>Ezytravellers</b></li>
-                        <li><a href="https://www.ezytravel.co.id/tentang-kami">Tentang Kami</a></li>
-                        <li><a href="https://www.ezytravel.co.id/career">Karir</a></li>
-                        <li><a href="https://www.ezytravel.co.id/blog">Blog</a></li>
-                    </ul>
-              </div> 
-              <div class="col-xs-2">
-                    <ul>
-                        <li><b>Bantuan</b></li>
-                        <li><a href="https://www.ezytravel.co.id/cara-pemesanan">Cara Pemesanan</a></li>
-                        <li><a href="https://www.ezytravel.co.id/cara-pembayaran">Cara Pembayaran</a></li>
-                        <li><a href="https://www.ezytravel.co.id/hubungi-kami">Hubungi Kami</a></li>
-                    </ul>
-              </div> 
-              <div class="col-xs-2">
-                    <ul>
-                        <li><b>Lain-lain</b></li>
-                        <li><a href="https://www.ezytravel.co.id/promo">Promo Terbaru</a></li>
-                        <li><a href="https://www.ezytravel.co.id/customer/register">Menjadi Member</a></li>
-                        <li><a href="https://www.ezytravel.co.id/syarat-ketentuan">Syarat &amp; Ketentuan</a></li>
-                        <li><a href="https://www.ezytravel.co.id/kebijakan-privasi">Kebijakan Privasi</a></li>
-                    </ul>
-              </div>                  
-              <div class="col-xs-2" id="social_link">
-                    <ul>
-                        <li><b>Hubungkan</b></li>
-                        <li><a href="#" onclick="open_window('https://www.facebook.com/www.ezytravel.co.id', 1024, 400, 'yes', 0, 0);return false;"><i class="fa fa-facebook"></i> Facebook</a></li>
-                        <li><a href="#" onclick="open_window('https://twitter.com/Ezytravelindo', 1024, 400, 'yes', 0, 0);return false;"><i class="fa fa-twitter"></i> Twitter</a></li>
-                        <li><a href="#" onclick="open_window('https://plus.google.com/u/0/+ezytravel', 1024, 400, 'yes', 0, 0);return false;"><i class="fa fa-google-plus"></i> Google Plus</a></li>
-                        <li><a href="#" onclick="open_window('http://www.youtube.com/user/EzyTravel', 1024, 400, 'yes', 0, 0);return false;"><i class="fa fa-youtube"></i> Youtube</a></li>
-                        <li><a href="#" onclick="open_window('https://www.linkedin.com/company/ezy-travel', 1024, 400, 'yes', 0, 0);return false;"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
-                        <li><a href="#" onclick="open_window('https://www.pinterest.com/ezytravel', 1024, 400, 'yes', 0, 0);return false;"><i class="fa fa-pinterest-p"></i> Pinterest</a></li>
-                    </ul>
-              </div>
-              <div class="col-xs-4 right" id="newsletter_wrap">
-                    <ul>
-                        <li><img src="https://www.ezytravel.co.id/assets/images/logo/ezynotify2.png?v=201610251209180" /></li>
-                        <li>Dapatkan info promo &amp; diskon dari kami</li>
-                        <li style="display: table;">
-                            <div class="form-group has-feedback" style="width: 178px;float:left;margin-right:5px;">
-                                <input type="text" id="newsletter_signup" value="" placeholder="Masukkan Email..." class="form-control" />
-								<div class="newsletter-message hide">
-								   <i>&nbsp;&nbsp;</i>
-								   <span></span>
-								</div>
-                            </div>
-                            <div id="newsletter_button">
-                                <a onclick="signup_newsletter('newsletter_signup', 'newsletter-message'); return false;" class="btn btn-block btn-lg btn-primary">Daftar</a>
-                            </div>                            
-                        </li>
-                        <li class="clear"><small>Tanpa spam &amp; dapat di unsubscribe setiap saat</small></li>
-                    </ul>
-              </div>          
-        </div>
-        <div class="clear" style="height: 10px;">&nbsp;</div>
-        <hr />
-        <div class="clear" style="height: 20px;">&nbsp;</div>    
-        <div class="row">
-            <div class="col-xs-3"><img src="https://www.ezytravel.co.id/assets/images/logo/helloezy.png?v=201610251209180" height="80" /></div>
-            <div class="col-xs-5">
-            <b>PT Dwidaya Indo Exchange</b><br/>
-            Jl. Hayam Wuruk No. 121<br />
-            Mangga Besar - Jakarta Barat 11180<br />
-            <a href="https://goo.gl/maps/ZPHEsKPoicy" target="_blank" style="font-weight: normal!important; color:#1f5ca9;"><i class="fa fa-map-marker"></i> Lihat Peta</a>
-            </div>
-            <div class="col-xs-4"><b>Pembayaran Anda di Ezytravel Aman</b>
-                <div class="clear" style="height: 10px;">&nbsp;</div>  
-                <div class="col-xs-3"><img src="https://www.ezytravel.co.id/assets/images/logo/secured1.png?v=201610251209180" /></div>
-                <div class="col-xs-4"><img src="https://www.ezytravel.co.id/assets/images/logo/secured2.png?v=201610251209180" /></div>
-                <div class="col-xs-4"><img src="https://www.ezytravel.co.id/assets/images/logo/secured3.png?v=201610251209180" /></div>
-                <div class="clear" style="height: 10px;">&nbsp;</div>
-                <p style="font-size: 11px;">Semua proses pembayaran secara elektronik di Ezytravel diamankan oleh Sertifikat SSL.</p>
-            </div>
-        </div>      
-    </div>
-    <div class="clear" style="height: 20px;">&nbsp;</div> 
-    <div class="copyright_wrap">
-        <div class="container">
-            <div class="col-xs-12" style="color: #fff;text-align:center;margin-top:10px;">Copyright &copy; 2018 PT Dwidaya Indo Exchange - Hak Cipta Dilindungi Undang-undang</div>
-        </div>
-    </div>
+<footer>
+<div class="container">
+<div class="clear" style="height: 20px;">&nbsp;</div>
+<div class="row">
+<div class="col-xs-3"><img src="../Gambar/logo_3.png" width="200"></div>
+<div class="col-xs-9"><small>EZYTRAVEL.co.id - adalah situs pemesanan tiket pesawat murah dengan berbagai rute penerbangan dari berbagai maskapai baik domestik maupun internasioal, juga melayani pemesanan hotel dari berbagai kota yang ada di Indonesia maupun mancanegara serta menyediakan wisata kapal pesiar (cruise), paket wisata dan tur terlengkap ke berbagai destinasi.</small></div>
+</div>
+<div class="clear" style="height: 10px;">&nbsp;</div>
+<hr>
+<div class="clear" style="height: 10px;">&nbsp;</div>
+<div class="row">
+<div class="col-xs-2">
+<ul>
+<li><b>Ezytravellers</b></li>
+<li><a href="#">Tentang Kami</a></li>
+<li><a href="#">Karir</a></li>
+<li><a href="#">Blog</a></li>
+</ul>
+</div>
+<div class="col-xs-2">
+<ul>
+<li><b>Bantuan</b></li>
+<li><a href="#">Cara Pemesanan</a></li>
+<li><a href="#">Cara Pembayaran</a></li>
+<li><a href="#">Hubungi kami</a></li>
+</ul>
+</div>
+<div class="col-xs-2">
+<ul>
+<li><b>Lain-lain</b></li>
+<li><a href="#">Promo Terbaru</a></li>
+<li><a href="#">Menjadi Member</a></li>
+<li><a href="#">Syarat &amp; Ketentuan</a></li>
+<li><a href="#">Kebijakan Privasi</a></li>
+</ul>
+</div>
+<div class="col-xs-2" id="social_link">
+ <ul>
+<li><b>Hubungkan</b></li>
+<li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+<li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+<li><a href="#"><i class="fab fa-google-plus-g"></i> Google Plus</a></li>
+<li><a href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
+<li><a href="#"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+<li><a href="#"><i class="fab fa-pinterest-p"></i> Pinterest</a></li>
+</ul> 
+</div>
+<div class="col-xs-4 right" id="newsletter_wrap">
+<ul>
+<li><img src="../Gambar/ezynotify2.png" alt=""></li>
+<li>Dapatkan info promo &amp; diskon dari kami</li>
+<li style="display: table;">
+<div class="form-group has-feedback" style="width: 178px;float:left;margin-right:5px;">
+<input type="text" id="newsletter_signup" value="" placeholder="Masukkan Email.." class="form-control">
+<div class="newsletter-massage hide">
+<i>&nbsp;&nbsp;</i>
+<span></span>
+</div>
+</div>
+<div id="newsletter_button">
+<a class="btn btn-block btn-lg btn-primary">Daftar</a>
+</div>
+</li>
+<li class="clear"><small>Tanpa spam &amp; dapat di unsubscribe setiap saat</small></li>
+</ul>
+</div>
+</div>
+<div class="clear" style="height: 10px;">&nbsp;</div>
+<hr>
+<div class="clear" style="height: 20px;">&nbsp;</div>
+<div class="row">
+<div class="col-xs-3"><img src="../Gambar/helloezy.png" height="80"></div>
+<div class="col-xs-5">
+<b>PT Dwidaya Indo Exchange</b><br> Jl. Hayam Wuruk no. 121 <br> Mangga Besar - Jakarta Barat 11180 <br>
+<a href="#" target="#" style="font-weight: normal!important; color:#1f5ca9;"><i class="fa fa-map-marker"></i> Lihat Peta</a>
+</div>
+<div class="col-xs-4"><b>Pembayaran Anda di Ezytravel Aman</b>
+<div class="clear" style="height: 10px;">&nbsp;</div>
+<div class="col-xs-3"><img src="../Gambar/secured1.png" alt=""></div>
+<div class="col-xs-4"><img src="../Gambar/secured2.png" alt=""></div>
+<div class="col-xs-4"><img src="../Gambar/secured3.png" alt=""></div>
+<div class="clear" style="height: 10px;">&nbsp;</div>
+<p style="font-size: 11px;">Sema proses pembayaran secara elektronik di Ezytravel diamankan oleh Sertifikat SSL.</p>
+</div>
+</div>
+</div>
+
+<div class="clear" style="height: 20px;">&nbsp;</div>
+<div class="copyright_wrap">
+<div class="container">
+<div class="col-xs-12" style="color: #fff;text-align:center;margin-top:10px;">Copyright &copy; 2018 PT Dwidaya Indo Exchange - Hak Cipta Dilindungi Undang-undang">
+</div>
+</div>
 </footer>
- <script src="https://www.ezytravel.co.id/assets/js/global/core.js?v=201610251209180" type="text/javascript"></script>
-<script src="https://www.ezytravel.co.id/assets/js/global/signup_newsletter.js?v=201610251209180" type="text/javascript"></script>
-<script src="https://www.ezytravel.co.id/assets/js/form_validation/form_login.js?v=201610251209180" type="text/javascript"></script>
-<script src="https://www.ezytravel.co.id/assets/js/global/zopim.js?v=201610251209180" type="text/javascript"></script>
-<script src="https://www.ezytravel.co.id/assets/dist/js/vendor/jquery-ui.min.js?v=201610251209180" type="text/javascript"></script>
-<script src="https://www.ezytravel.co.id/assets/dist/js/vendor/video.js?v=201610251209180" type="text/javascript"></script>
-<script src="https://www.ezytravel.co.id/assets/dist/js/flat-ui.js?v=201610251209180" type="text/javascript"></script>
-<script src="https://www.ezytravel.co.id/assets/dist/js/application.js?v=201610251209180" type="text/javascript"></script>
-<script src="https://www.ezytravel.co.id/assets/js/flickity_mobile_slide.js?v=201610251209180" type="text/javascript"></script>
-<script src="https://www.ezytravel.co.id/assets/js/global/notification.js?v=201610251209180" type="text/javascript"></script>
-<script src="https://www.ezytravel.co.id/assets/js/search_form/autocomplete.js?v=201610251209180" type="text/javascript"></script>
-<script src="https://www.ezytravel.co.id/assets/js/search_form/hotel.js?v=201610251209180" type="text/javascript"></script>
-<script src="https://www.ezytravel.co.id/assets/js/form_validation/form_search_hotel.js?v=201610251209180" type="text/javascript"></script>
-<script type='text/javascript'>
-/*<![CDATA[*/
-		jQuery(document).ready(function() {
-        var offset = 220;
-        var duration = 500;
-        jQuery(window).scroll(function() {
-          if (jQuery(this).scrollTop() > offset) {
-            jQuery('.back-to-top').fadeIn(duration);
-          } else {
-            jQuery('.back-to-top').fadeOut(duration);
-          }
-        });
-        
-        jQuery('.back-to-top').click(function(event) {
-          event.preventDefault();
-          jQuery('html, body').animate({scrollTop: 0}, duration);
-          return false;
-        })
-      });/*]]>*/
-</script>
-<script type='text/javascript'>
-/*<![CDATA[*/videojs.options.flash.swf = "https://www.ezytravel.co.id/dist/js/vendors/video-js.swf?v=201610251209180"/*]]>*/
-</script>
-<script type='text/javascript'>
-/*<![CDATA[*/$(window).scroll(function() {
-    if ($(window).scrollTop() > 100) {
-        $('.main_header_auto').addClass('sticky');
-    } else {
-        $('.main_header_auto').removeClass('sticky');
-    }
-});/*]]>*/
-</script>
-<script type='text/javascript'>
-/*<![CDATA[*/$(window).scroll(function() {
-	if ($(this).scrollTop()>500) {
-    	$('#bg').fadeOut();
- 	} else {
-  		$('#bg').fadeIn();
- 	}
-});/*]]>*/
-</script>
-<script type='text/javascript'>
-/*<![CDATA[*/$('.close').click(function(){
-    $(this).parents('.bottom_ad').css('display','none');
-});/*]]>*/
-</script>
+
+
 
 </body>
 </html>
