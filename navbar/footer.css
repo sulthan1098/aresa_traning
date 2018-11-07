@@ -1,0 +1,140 @@
+footer{
+    padding: 15px 0 0;
+    font-size: 13px;
+    color: #425762;
+    background-color: #e7f1f6;
+    border-top: 1px solid #b3c9d4;
+}
+
+.clear{
+    clear: both;
+}
+
+footer small{
+    font-size: 12px;
+    font-style: normal;
+    color: #425762;
+}
+
+small, .small{
+    line-height: 1;
+    position: relative;
+    top: -7px;
+}
+
+ul, ol{
+    margin-bottom: 15px;
+}
+
+b, strong{
+    font-weight: 700;
+}
+
+ul, ul li{
+    list-style: none;
+    padding: 0px;
+}
+
+footer ul li a{
+    font-weight: normal;
+    color: #425762;
+    font-size: 12px;
+}
+
+#social_link i  {
+    width: 17px;
+}
+
+footer #newsletter_wrap{
+    border-left: 1px solid #b3c9d4;
+    padding: 0px 20px;
+}
+
+footer #newsletter_wrap li{
+    margin: 5px 0;
+}
+
+.form-group{
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.form-control, .select2-search input[type="text"] {
+    height: 42px;
+    padding: 8px 12px;
+    font-size: 15px;
+    line-height: 1.467;
+    color: #24495e;
+    border: 1px solid #b3c9d4;
+    border-radius: 5px;
+    box-shadow: none;
+    transition: border .25s linear, color .25s linear, background-color .25s linear;
+    margin-bottom: 5px;
+}
+
+footer #newsletter_button{
+    float: left;
+    margin: 0px;
+    width: 85px;
+    color: #fff;
+}
+
+footer #newsletter_wrap a{
+    color: #fff;
+    font-size: 13px;
+}
+
+.btn-block{
+    white-space: normal;
+}
+
+.btn-lg, .btn-group > .btn{
+    padding: 10px 19px;
+    line-height: 1.471;
+    border-radius: 3px;
+    border: 1px solid #cb681e;
+}
+
+.btn-primary{
+    background-color: #f58634;
+    box-shadow: 0 -4px 0 rgba(0, 0, 0, 0.15) inset;
+}
+
+footer p{
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+
+.copyright_wrap{
+    background: #1f5ca9;
+    height: 50px;
+    border-top: 5px solid #f58634;
+}
+
+.back-to-top{
+    display: block;
+    padding: 4px 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.back-to-top{
+    position: fixed;
+    bottom: 0;
+    left: 35px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    opacity: 0.18;
+    border-radius: 10px 10px 0 0;
+}
+
+.back-to-top span{
+    font-size: 14px;
+}
+
+.back-to-top i{
+    font-size: 30px;
+}

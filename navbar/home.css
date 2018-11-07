@@ -257,22 +257,16 @@ article p{
     text-align: left;
 }
 
-.img-hover img:hover {
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-transform:translateZ(0) scale(1.20); 
-    -moz-transform:scale(1.20); 
-    -ms-transform:scale(1.20); 
-    -o-transform:translatZ(0) scale(1.20);
-    transform:translatZ(0) scale(1.20);
+.img-hover img {
+    -webkit-transition: 0.4s ease;  
+    transition: 0.4s ease;
+    width: 700px;
 }
 
-.img-hover img {
-    -webkit-transition: all .3s ease; 
-  	-moz-transition: all .3s ease; 
-  	-o-transition: all .3s ease; 
-  	-ms-transition: all .3s ease; 
-  	transition: all .3s ease;
+
+.img-hover:hover img{
+    transform: scale(1.25);
+    transition: all 0.3s ease 0s;
 }
 
 .grayscale {
