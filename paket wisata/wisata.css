@@ -1,0 +1,479 @@
+#tour_header{
+    position: relative;
+    top: 27px;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    width: 970px;
+    display: table;
+    padding: 0px 20px;
+}
+
+#tour_header .navbar-header{
+    position: absolute;
+}
+
+.navbar-brand{
+    position: absolute;
+    height: 53px;
+    padding: 30px 0px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.042;
+    margin-top: -500px;
+    margin-left: 20px;
+}
+
+.quick_search_box{
+    width: 300px;
+    background: #1F5CA9;
+    top: 117px;
+    position: absolute;
+    z-index: 1000;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.75);
+    padding: 15px 20px;
+    margin-top: 45px;
+}
+
+.quick_search_box h6{
+    font-size: 20px;
+    color: #fff;
+    border-bottom: 1px solid #054290;
+    padding-bottom: 16px;
+    margin: 0px;
+}
+
+.quick_search_box .form{
+    border-top: 1px solid #3576c8;
+    padding-top: 10px;
+}
+
+.bootstrap-select-form .form-group, .bootstrap-select-form .form-group .bootstrap-select{
+    width: 100%;
+}
+
+.quick_search_box .form-group{
+    margin: 0 0 5px;
+}
+
+.form-group{
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.quick_search_box .form label{
+    color: #fff;
+}
+
+label{
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 2;
+}
+
+.btn-group > .btn, .btn-group > .dropdown-menu, .btn-group > .popover{
+    font-weight: 400;
+}
+
+.bootstrap-select .btn{
+    margin-top: 0px;
+    /* padding: 100px; */
+}
+
+.bootstrap-select .btn-default, .bootstrap-select .btn-default:active, .bootstrap-select .btn-default:hover, .bootstrap-select .btn-default:focus, .bootstrap-select.open > .dropdown-toggle.btn-default{
+    background-color: #fff;
+    color: #425762;
+}
+
+.btn{
+    font-size: 15px;
+    line-height: 1.4;
+    border: none;
+    border-radius: 4px;
+    transition: border .25s linear, color .25s linear, background-color .25s linear;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.bootstrap-select.btn-group .dropdown-toggle .caret{
+    color: #B3C9D4;
+}
+
+.dropdown-toggle .caret{
+    margin-left: 8px;
+}
+
+.caret{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 8px solid;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    transition: border-color .25s, color .25s;
+}
+
+.quick_search_box .form select option{
+    cursor: pointer;
+    padding: 8px 0 8px 15px;
+}
+
+.bootstrap-select > select {
+    position: absolute ;
+    bottom: 0;
+    left: 50%;
+    display: block ;
+    width: 0.5px ;
+    height: 100% ;
+    padding: 0 ;
+    opacity: 0 ;
+    border: none;
+}
+
+.bootstrap-select.btn-group:not(.input-group-btn), .bootstrap-select.btn-group[class*="col-"] {
+    float: none;
+    display: inline-block;
+    margin-left: 0;
+}
+
+#tour_header .gallery{
+    position: relative;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+
+.hero-gallery .caption{
+    position: relative;
+    top: 130px;
+    color: #fff;
+    width: 54%;
+    float: right;
+}
+
+.hero-gallery{
+    width: 100%;
+    background-size: 1600px 600px;
+    background-position: center;
+}
+
+.quick_search_box{
+    width: 300px;
+    background: #1F5CA9;
+    top: 117px;
+    position: absolute;
+    z-index: 1000;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.75);
+    padding: 15px 20px;
+}
+
+.quick_search_box h6{
+    font-size: 20px;
+    color: #fff;
+    border-bottom: 1px solid #054290;
+    padding-bottom: 16px;
+    margin: 0px;
+}
+
+.quick_search_box .form{
+    border-top: 1px solid #3576c8;
+    padding-top: 10px;
+}
+
+.bootstrap-select-form .form-group, .bootstrap-select-form .form-group .bootstrap-select{
+    width: 100px;
+}
+
+.quick_search_box .form-group{
+    margin: 0 0 5px;
+}
+
+.form-group{
+    position: relative;
+}
+
+.quick_search_box .form label{
+    color: #fff;
+}
+
+label{
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 2;
+}
+
+.bootstrap-select.btn-group .dropdown-toggle .caret{
+    color: #B3C9D4;
+}
+
+.dropdown-toggle .caret{
+    margin-left: 8px;
+}
+
+.caret{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 8px solid;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    transition: border-color .25s, color .25s;
+}
+
+.bootstrap-select .dropdown-menu{
+    margin-top: 0;
+    border-radius: 0px;
+}
+
+.dropdown-menu{
+    z-index: 1001;
+    padding: 0;
+    font-size: 14px;
+    background-color: #fff;
+    box-shadow: none;
+    border: 1px solid #B3C9D4;
+}
+
+.bootstrap-select .bs-searchbox{
+    background: #e0e6e9;
+    padding-top: 10px;
+}
+
+.form-control, .select2-search input[type="text"]{
+    height: 42px;
+    padding: 8px 12px;
+    font-size: 15px;
+    line-height: 1.467;
+    color: #34495e;
+    border: 1px solid #B3C9D4;
+    border-radius: 5px;
+    box-shadow: none;
+    transition: border .25s linear, color .25s linear, background-color .25s linear;
+    margin-bottom: 5px;
+}
+
+ul, ul li{
+    list-style: none;
+    padding: 0px;
+}
+
+.bootstrap-select .dropdown-menu > .active > a, .bootstrap-select .dropdown-menu > .active > a:focus{
+    background: #fff;
+    color: #425767;
+}
+
+
+.dropdown-menu > li > a{
+    padding: 8px 16px;
+    line-height: 2;
+}
+
+.quick_search_box .form select option{
+    cursor: pointer;
+    padding: 8px 0 8px 15px;
+}
+
+/* .quick_search_box .form .btn{
+    margin-top: 15px;
+    padding: 10px 30px 15px;
+} */
+
+.btn-primary {
+    padding: 10px 30px 15px;
+    color: #fff;
+    background-color: #f58634;
+    box-shadow: 0 -4px rgba(0, 0, 0, .15) inset;
+}
+
+.carousel-caption h2{
+    margin-bottom: 190px;
+    margin-left: 150px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.carousel-caption p{
+    position: absolute;
+    font-size: 22px;
+    line-height: 1.3;
+    padding: 10px 0;
+    margin-top: -190px;
+    margin-left: 250px;
+}
+
+.carousel-inner{
+    margin-top: 27px;
+}
+
+.tour_tab h4{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    font-size: 29px;
+    line-height: 1.1;
+    color: #f58634;
+    padding: 0px;
+}
+
+.tour_tab .nav-tabs{
+    border-bottom: none;
+    position: relative;
+    z-index: 1;
+}
+
+.tour_tab .nav > li {
+    margin-bottom: -3px;
+    text-align: center;
+}
+
+.tour_tab .nav > li.active > a{
+    border: none;
+    color: #425762;
+    line-height: 1.3;
+    font-weight: bold;
+    margin-top: 1px;
+}
+
+.tour_tab .nav > li > a{
+    padding: 0px 5px;
+}
+
+.tab-item{
+    display: table-cell;
+    height: 150px;
+    width: 80px;
+}
+
+.tour_tab li.active .tab-item p{
+    color: #f58634;
+    transition: all 0.25s ease 0s;
+    position: relative;
+    border-bottom: 3px solid #f58634;
+}
+
+.tab-item p{
+    line-height: 1.3;
+    margin-top: 15px;
+}
+
+p{
+    margin: 0 0 15px;
+    font-size: 14px;
+}
+
+.tour_tab .nav-tabs li a{
+    background: transparent;
+}
+
+.tour_tab hr{
+    position: relative;
+    top: -78px;
+    border: 1px solid #2765ad;
+}
+
+.clear{
+    clear: both;
+}
+
+.topcontent_wrap{
+    position: relative;
+    top: -70px;
+    display: block;
+}
+
+.newsletter_wrap{
+    background: #1F5CA9;
+    width: 100%;
+    color: #fff;
+    padding: 20px 0;
+    display: table;
+}
+
+.row{
+    border-bottom: solid 1px transparent;
+}
+
+.newsletter_button{
+    width: 140px;
+    margin: 0px;
+    float: left;
+}
+
+.newsletter_button a{
+    padding: 6px 19px 10px
+}
+
+.btn-block{
+    white-space: normal;
+}
+
+h6{
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+    color: #f58634;
+}
+
+.btn-lg, .btn-group-lg > .btn{
+    font-size: 17px;
+    line-height: 1.471;
+    border-radius: 3px;
+    border: 1px solid #cb681e;
+}
+
+.size1{
+    width: 300px;
+    margin: 0px auto;
+}
+
+.hr-inline-text{
+    text-align: center;
+    position: relative;
+    top: -20px;
+    background: #fff;
+    font-size: 16px;
+}
+
+.partner_logo h6{
+    text-align: center;
+    margin: 0px;
+}
+
+hr{
+    margin: 5px 0px;
+    border-top: 1px solid #b3c9d4;
+    border-bottom: 1px solid #fff;
+}
+
+.partner_logo .thumbnail{
+    border: 0px solid red;
+}
+
+.thumbnail{
+    display: block;
+    padding: 4px;
+    margin-bottom: 5px;
+    line-height: 1.72222;
+    background-color: #fff;
+    border-radius: 6px;
+    transition: border .25s ease-in-out;
+}
+
+.thumbnail > img, .thumbnail a > img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.size2{
+    width: 220px;
+    margin: 0px auto;
+}
