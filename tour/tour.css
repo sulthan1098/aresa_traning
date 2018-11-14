@@ -9,7 +9,7 @@
 .quick_search_box{
     width: 300px;
     background: #1F5CA9;
-    top: 117px;
+    top: 170px;
     position: absolute;
     z-index: 1000;
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.75);
@@ -35,6 +35,7 @@
 
 .form-group{
     position: relative;
+    margin-bottom: 0px;
 }
 
 .quick_search_box .form-group{
@@ -147,6 +148,21 @@ ul, ul li{
 
 .clear{
     clear: both;
+}
+
+.navbar-brand{
+    position: absolute;
+    height: 53px;
+    padding: 30px 0px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.042;
+    margin-top: -500px;
+    margin-left: 20px;
+}
+
+.carousel-inner{
+    margin-top: 27px;
 }
 
 .dropdown-menu, .select2-drop{
@@ -352,4 +368,127 @@ hr{
 
 .clear{
     clear: both;
+}
+
+.topcontent_wrap{
+    position: relative;
+    top: -70px;
+    display: block
+}
+
+.newsletter_wrap{
+    background: #1F5CA9;
+    width: 100%;
+    color: #fff;
+    padding: 20px 0;
+    display: table;
+}
+
+.logo_ezynotify{
+    margin: 35px 0;
+}
+
+h6{
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+    color: #f58634
+}
+
+.has-feedback .form-control{
+    padding-right: 42.5px;
+}
+
+.newsletter_button{
+    width: 140px;
+    margin: 0px;
+    float: left;
+}
+
+.newsletter_button a{
+    padding: 6px 19px 10px;
+}
+
+.btn-block{
+    white-space: normal;
+}
+
+.btn-lg, .btn-group-lg > .btn{
+    padding: 10px 19px;
+    font-size: 17px;
+    line-height: 1.741;
+    border-radius: 3px;
+    border: 1px solid #cb681e;
+}
+
+.size1{
+    width: 300px;
+    margin: 0px auto;
+}
+
+.hr-inline-text{
+    text-align: center;
+    position: relative;
+    top: -20px;
+    background: #fff;
+    font-size: 16px;
+}
+
+.partner_logo h6{
+    text-align: center;
+    margin: 0px;
+}
+
+.partner_logo .thumbnail{
+    border: 0px solid red;
+}
+
+.thumbnail{
+    display: block;
+    padding: 4px;
+    margin-bottom: 5px;
+    line-height: 1.72222;
+    background-color: #fff;
+    border: 2px solid #bdc3c7;
+    border-radius: 6px;
+    transition: border .25s ease-in-out;
+}
+
+.thumbnail > img, .thumbnail a > img{
+    display: block;
+    max-height: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.size2{
+    width: 220px;
+    margin: auto;
+}
+
+.carousel-caption h2{
+    margin-bottom: 260px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.carousel-caption p{
+    position: absolute;
+    font-size: 22px;
+    line-height: 1.3;
+    margin-left: 277px;
+    margin-top: -241px;
+}
+
+.btn-ghost-light{
+    position: absolute;
+    border: 2px solid white;
+    color: #fff;
+    padding: 5px 10px;
+    margin-top: -196px;
+    margin-left: -126px;
 }
